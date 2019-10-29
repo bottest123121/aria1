@@ -38,6 +38,9 @@
       "url": "heroku/nodejs"
     }
   ],
+    "scripts": {
+    "postdeploy": "npm install -g typescript && tsc"
+  },
   "environments": {
     "test": {
     }
