@@ -39,7 +39,7 @@
     }
   ],
   "scripts": {
-    "postdeploy": "npm install"
+    "postdeploy": "sudo npm install -g typescript"
   },
   "environments": {
     "test": {
