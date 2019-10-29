@@ -1,3 +1,7 @@
 aria2
+node-gyp
+node-websocket
+libjs-jssip
+node-jssip
 npm
 node.js
