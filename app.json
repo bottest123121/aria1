@@ -24,7 +24,6 @@
   },
   "image": "heroku/ruby",
   "addons": [
-    "openredis",
     {
       "plan": "heroku-postgresql",
       "options": {
