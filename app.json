@@ -36,7 +36,6 @@
       "url": "https://github.com/heroku/heroku-buildpack-apt"
     }
   ],
-  {
   "scripts": {
     "postdeploy": "npm install"
   },
