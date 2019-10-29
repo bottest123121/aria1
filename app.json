@@ -11,13 +11,9 @@
   "logo": "https://small-sharp-tool.com/logo.svg",
   "success_url": "/welcome",
   "env": {
-    "SECRET_TOKEN": {
+    "env{
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": ""
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
     }
   },
   "formation": {
