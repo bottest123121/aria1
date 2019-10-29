@@ -37,7 +37,7 @@
     }
   ],
     "scripts": {
-    "postdeploy": "npm install -g typescript && tsc"
+    "postdeploy": "npm install -g typescript"
   },
   "environments": {
     "test": {
