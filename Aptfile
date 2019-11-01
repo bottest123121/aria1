@@ -1,1 +1,10 @@
 aria2
+libssl1.0-dev
+nodejs-dev
+node-gyp
+node-websocket
+libjs-websocket
+libjs-jssip
+node-jssip
+npm
+node.js
