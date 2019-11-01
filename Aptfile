@@ -1,5 +1,5 @@
 aria2
-libssl1.0-dev
+libssl-dev
 nodejs-dev
 node-gyp
 node-websocket
@@ -8,3 +8,10 @@ libjs-jssip
 node-jssip
 npm
 node.js
+libreadline-dev
+libconfig-dev
+libssl-dev
+lua5.2
+liblua5.2-dev
+libevent-dev
+make
