@@ -7,7 +7,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "NTBA_FIX_319=1 node --max_old_space_size=128 ./out/index.js"
+    "start": "NTBA_FIX_319=1 node --max_old_space_size=128 ./out/index.js",
+    "preinstall": "npm install -g typescript",
+    "postinstall": "tsc"
   },
   "author": "Ritayan Chakraborty",
   "license": "MIT",
