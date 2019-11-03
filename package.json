@@ -3,22 +3,17 @@
   "version": "2.0.0",
   "description": "A telegram bot to mirror files to Google Drive",
   "engines": {
-    "node": "12.x"
+    "node": "13.x"
   },
   "main": "index.js",
   "scripts": {
     "start": "NTBA_FIX_319=1 node --max_old_space_size=128 ./out/index.js",
-    "preinstall": "npm install -g typescript",
+    "preinstall": "npm install --save --save-exact typescript",
     "postinstall": "tsc"
   },
   "author": "Ritayan Chakraborty",
   "license": "MIT",
   "dependencies": {
-    "@types/fs-extra": "^7.0.0",
-    "@types/mime-types": "^2.1.0",
-    "@types/node-telegram-bot-api": "^0.31.0",
-    "@types/tar": "^4.0.0",
-    "@types/uuid": "^3.4.4",
     "aria2": "^3.0.1",
     "diskspace": "^2.0.0",
     "fs-extra": "^7.0.0",
@@ -30,6 +25,11 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/mime-types": "^2.1.0",
+    "@types/node-telegram-bot-api": "^0.31.0",
+    "@types/tar": "^4.0.0",
+    "@types/uuid": "^3.4.4",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
     "@typescript-eslint/parser": "^1.12.0",
     "eslint": "^6.0.1"
