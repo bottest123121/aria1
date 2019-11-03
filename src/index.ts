@@ -36,7 +36,7 @@ setEventCallback(eventRegex.commandsRegex.start, eventRegex.commandsRegexNoName.
   if (msgTools.isAuthorized(msg) < 0) {
     msgTools.sendUnauthorizedMessage(bot, msg);
   } else {
-    msgTools.sendMessage(bot, msg, 'You should know the commands already. Happy mirroring.', -1);
+    msgTools.sendMessage(bot, msg, 'Hello, Ha mai zinda hoon Bas aap meri gand mariye muje bada maja aa ra hai!! Aur commands toh aapko maloom hi honge tabhi toh start kia hai na aapne ;) Shukriya mera *istemal* karne ke lie', -1);
   }
 });
 
